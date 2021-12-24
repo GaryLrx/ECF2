@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: radial-gradient(100% 197.75% at 0% 100%, #1D2D3D 0%, #1A0530 100%);
+    max-width: 1140px;
+    overflow-x: none;
+}
+
+#gotoTop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    background: none;
+  }
+  
+
+
+h2#trait1{
+    &:after{
+        background-color: #ED4621;
+        content: "";
+        display: inline-block;
+        height: 7px;
+        position: absolute;
+        vertical-align: middle;
+        width: 97px;
+        border-radius: 10px;
+        top: 61px;
+        left: 15px;
+    }
+}
+h2#trait2{
+    &:after{
+        position: absolute;
+        background-color: #ED4621;
+        content: "";
+        display: inline-block;
+        height: 7px;
+        vertical-align: middle;
+        width: 97px;
+        border-radius: 10px;
+        top: 60px;
+        left: 0;
+    }
+}
+h2#trait3{
+    &:after{
+        position: absolute;
+        background-color: #ED4621;
+        content: "";
+        display: inline-block;
+        height: 7px;
+        vertical-align: middle;
+        width: 97px;
+        border-radius: 10px;
+        top: 90px;
+        left: 20px;
+    }
+}
+h2#trait2{
+    padding-left: 0;
+}
+
+h1,h2,h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2,h3,p,label{
+    color: #ffffff;
+}
+
+span{
+    color: #ED4621;
+}
+
+header{
+
+    #Presentation{
+        position: relative;
+    }
+    height: 100vh;
+    nav{
+        display: none;
+    }
+
+    #logo{
+        width: 150px;
+    }
+    
+    #idblock{
+        display: block;
+    }
+    
+    #imgheaderdesk{
+        display: none;
+    }
+
+    #imgheader{
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: -73;
+    }
+    
+    h1{
+        max-width: 360px;
+        font-size: 28px;
+        margin: 110px 0px 77px 20px;
+    }
+
+    div.headertexte{
+        margin: 0px 40px 0px 20px;
+    }
+
+    #fleche{
+        position: absolute;
+        transform: translate(177px, 10px);
+        bottom: 0px;
+        left: 0;
+    }
+}
+
+
+
+main{
+    section{
+        img{
+            width: 250px;
+        }
+        .uppercase{
+            text-transform: uppercase;
+        }
+        #luigi{
+
+            width: 410px;
+            margin-left: -72px;
+        }
+        #compet{
+            padding: 80px 30px 80px 25px;
+            text-align: center;
+            margin: 0;
+        }
+        h2{
+            position: relative;
+            margin: 0;
+            padding: 0px 30px 10px 15px;
+        }
+
+        .sectiontext{
+            margin: 0px 40px 0px 20px;    
+        }
+
+        #cartes{
+            width:350px;
+        }
+        #invites{
+            padding: 80px 30px 80px 25px;
+            text-align: center;
+        }
+
+        .cosplayImg{
+            display: flex;
+            justify-content: center;
+        }
+
+        #cosplayimg{
+            width: 380px;
+        }
+
+        .radiant{
+            p{
+                width: 110px;
+            }
+            
+            flex-direction: column;
+            display: flex;
+            background: radial-gradient(445.42% 160.84% at 0% 100%, rgba(20, 126, 186, 0.6) 0%, rgba(41, 116, 181, 0.5625) 26.87%, rgba(237, 33, 94, 0.375) 100%), radial-gradient(119.57% 100% at 0% 100%, rgba(186, 40, 20, 0.675) 0%, rgba(161, 19, 104, 0.4875) 100%);
+            box-shadow: inset 4.57333px -4.57333px 4.57333px rgba(190, 27, 95, 0.416), inset -4.57333px 4.57333px 4.57333px rgba(255, 255, 255, 0.416);
+            backdrop-filter: blur(65.856px);
+            border-radius: 15px;
+            margin: 0px 20px 30px 10px;
+            padding: 2.5rem;
+        }
+
+        .celeb{
+            overflow-x: scroll;
+        }
+
+        .celeb1{
+            display: flex;
+        }
+        .celeb2{
+            display: flex;
+        }
+        .portraits{
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+        #titrecosplay{
+            padding: 100px 30px 10px 15px;
+        }
+        #titrepart{
+            padding: 50px 30px 80px 15px;
+            text-align: center;
+        }
+        .part2{
+            display: flex;
+            overflow-x: scroll;
+                .radiant{
+                    display: flex;
+                    background: radial-gradient(445.42% 160.84% at 0% 100%, rgba(20, 126, 186, 0.6) 0%, rgba(41, 116, 181, 0.5625) 26.87%, rgba(237, 33, 94, 0.375) 100%), radial-gradient(119.57% 100% at 0% 100%, rgba(186, 40, 20, 0.675) 0%, rgba(161, 19, 104, 0.4875) 100%);
+                    box-shadow: inset 4.57333px -4.57333px 4.57333px rgba(190, 27, 95, 0.416), inset -4.57333px 4.57333px 4.57333px rgba(255, 255, 255, 0.416);
+                    backdrop-filter: blur(65.856px);
+                    border-radius: 15px;
+                    margin-right: 15px;
+                    padding: 2rem;
+                    
+                    .content{
+                        height: min-content;
+                        margin: auto;
+                        text-align: center;
+                        img{
+                        width: 100px;    
+                        }
+                    }
+                }    
+            
+        }
+          
+        
+    }  
+}
+
+footer{
+    #map{
+        width: 336px;
+    }
+    input[name="nom"]{
+        width: 105px;
+        height: 20px;
+        padding: 8px;
+        border-radius: 10px;
+        background-color: #f6f6f6;
+        display: flex;
+        justify-content: center;
+        margin: 10px 0px 10px 0px;
+    }
+    input[name="prenom"]{
+        width: 114px;
+        height: 20px;
+        padding: 8px;
+        border-radius: 10px;
+        background-color: #f6f6f6;
+        justify-content: center;
+        margin: 10px 0px 10px 0px;
+    }
+    input[name="mail"]{
+        width: 255px;
+        height: 20px;
+        padding: 8px;
+        border-radius: 10px;
+        background-color: #f6f6f6;
+        justify-content: center;
+        margin: 10px 0px 10px 0px;
+    }
+    input[name="objet"]{
+        width: 255px;
+        max-width: 260px;
+        height: 20px;
+        padding: 8px;
+        border-radius: 10px;
+        background-color: #f6f6f6;
+        justify-content: center;
+        margin: 10px 0px 10px 0px;
+    }
+    textarea[name="msg"]{
+        width: 270px;
+        height: 260px;
+        max-width: 300px;
+        border-radius: 20px;
+        border: none;
+        resize: none;
+        margin: 10px 0px 10px 0px;
+    
+    }
+    
+    input[type="submit"]{
+        background: #363C3A;
+        color: #ffffff;
+        border: none;
+        padding: 14px;
+        border-radius: 10px;
+        transform: translate(92px, 10px);
+        margin-top: 20px;
+    }
+
+    .nom{
+        max-width: 94px;
+    }
+
+    .prenom{
+        position: absolute;
+        left: 170px;
+        max-width: 172px;
+    
+    }
+    
+    .identite{
+        display: flex;
+        justify-content: space-between;
+    }
+    input{
+        border:none;
+    }
+    #contact{
+        margin-left: 10px;
+    }
+
+    #margin{
+        margin-left: 8%;
+    }
+
+    .marginfoot{
+        margin: 30% 2% 20% 8%;
+    }
+
+    .margincarte{
+        margin: 30% 2% 20% 8%;
+    }
+
+    h3{
+        font-size: 27px;
+    }
+
+    .map{
+        &:after{
+            background-color: #E6EBEF;
+            content: "";
+            display: inline-block;
+            height: 1px;
+            position: relative;
+            vertical-align: middle;
+            width: 89%;
+            bottom: 86px;
+            right: 1px;
+        }
+    }
+
+
+    .coordonnees{
+        .mail{
+            margin: 22px 0 0 0;
+            p{
+                margin: 0.2rem 0 0 1rem;
+            }
+            display: flex;
+            img{
+                width: 24px;
+                height: 20px;
+            }
+        }
+    
+        .tel{
+            margin: 25px 0 0 0;
+            p{
+                margin: 0.2rem 0 0 1rem;
+            }
+            display: flex;
+            img{
+                width: 23px;
+                height: 23px;
+            }
+        }
+    
+        .adresse{
+            p{
+                margin: 0.2rem 0 0 1rem;
+            }
+            display: flex;
+            img{
+                width:20px;
+                height: 25px;
+            }
+    
+        }
+         &:after{
+            background-color: #E6EBEF;
+            content: "";
+            display: inline-block;
+            height: 1px;
+            position: relative;
+            vertical-align: middle;
+            width: 93%;
+            top: 8px;
+            right: 5px;
+        }
+    }
+
+    .reseaux{
+        text-align: center;
+        margin-bottom: 16px;
+        &:after{
+            background-color: #E6EBEF;
+            content: "";
+            display: inline-block;
+            height: 1px;
+            position: relative;
+            vertical-align: middle;
+            width: 63%;
+            top: 13px;
+            right: 5px;
+        }   
+    }
+
+    .reseaux img{
+        padding: 10px;
+    }
+
+    .check{
+        max-width: 350px;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .copyright{
+        padding: 19px 19px 20px 0px;
+        max-width: 220px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width: 368px){
+    #map{
+        width: 250px;
+    }
+}
